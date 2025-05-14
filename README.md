@@ -92,9 +92,13 @@ Configuration parameters are organized by subsystem:
 
 ![Two-Wheel Robot](Two%20wheel%20Robot.png)
 
-> Figure: Top-level view of the Self-Balancing Two-Wheel Robot model.
+> Figure: view of the Self-Balancing Two-Wheel Robot model.
 
 ---
+![Full Model](Full_Model.png)
+
+> Figure: Top-level view of the Self-Balancing Two-Wheel model.
+
 
 ## 🧪 Examples
 
