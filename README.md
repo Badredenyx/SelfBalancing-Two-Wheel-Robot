@@ -99,20 +99,6 @@ Configuration parameters are organized by subsystem:
 
 > Figure: Top-level view of the Self-Balancing Two-Wheel model.
 
-
-## 🧪 Examples
-
-Below is an example script to run automated parameter sweeps on the PID gains:
-
-```matlab
-% Example: Sweep P gain from 10 to 100
-for P_gain = linspace(10,100,5)
-    set_param('SelfBalanicingRobot/PID Controller','P',num2str(P_gain));
-    out = sim('SelfBalanicingRobot.slx');
-    fprintf('P = %g, Peak Angle = %g\n', P_gain, max(out.angle_rad));
-end
-```
-
 ---
 
 ## 🤝 Contributing
